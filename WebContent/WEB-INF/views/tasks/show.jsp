@@ -22,6 +22,7 @@
         </p>
 
         <p><a href="${pageContext.request.contextPath}/index">一覧に戻る</a></p>
+        <p><a href="${pageContext.request.contextPath}/edit?id=${task.id}">編集画面へ</a></p>
 
     </c:param>
 </c:import>
